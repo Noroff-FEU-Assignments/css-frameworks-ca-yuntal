@@ -1,0 +1,102 @@
+.carousel-item{
+    background-size:cover;
+    background-position:center center;
+}
+
+.carousel-indicators li{
+    width:20px;
+    height:20px;
+    margin: 0 5px;
+    border-radius:20%;
+    background-color: $background;
+
+}
+
+.carousel-indicators li.active{
+    background-color: $primary;
+
+}
+
+.carousel-inner{
+    max-height:600px;
+}
+
+.nav-link-active{
+    color:$secondary;
+}
+
+
+.tab-content{
+    background:white;
+}
+
+.text{
+    margin-bottom:5%;
+    font-family:'roboto';
+}
+.container h1{
+    font-family:'roboto';
+}
+.img-responsive{
+    width:60%;
+    height:85%;
+    padding: 40px 5px 20px 25px;
+}
+.col p{
+    text-align:left;
+    margin-left:-19%;
+    margin-top:2%;
+    font-family:'roboto';
+}
+
+.social{
+    margin-left:-19%;
+}
+.fa-twitter{
+    margin-left:1%;
+}
+#card{
+    margin-bottom:-10%;
+}
+
+#headingOne, #headingTwo, #headingThree{
+    background-color: white;
+    border-bottom-style: 1px solid $primary;
+}
+#card-body{
+    background-color: $background;
+    font-family:'roboto';
+}
+.btn-link{
+    background-color:white !important;
+    color: $primary;
+}
+.btn-link:hover{
+    color:$primary;
+}
+
+
+
+@media (min-width:280px) and (max-width:767px){
+   
+    .social{
+        font-size:0.9em;
+        text-align:center;
+        margin-top:5%;
+        margin-left:1%;
+    }
+    .responsive{
+        width:100%;
+    }
+    .text{
+        margin-bottom:15%;
+    }
+}
+
+@media (min-width:767px) and (max-width:823px){
+    .col p{
+        font-size:.9em;
+        text-align: left;
+        margin-right:-5%;
+    }
+}
